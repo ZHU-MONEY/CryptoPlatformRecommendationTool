@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Buying/selling recommendation</title>
+</head>
+<body>
+<h1>Recommendation for whether buying/selling on Kraken or Coinbase</h1>
+
+<p>Kraken BTC prices in USD:</p>
+<p>-Buy: <span th:text="${Kraken_BTC_USD.buyPrice}">This should be the buy price</span></p>
+<p>-Sell: <span th:text="${Kraken_BTC_USD.sellPrice}">This should be the sell price</span></p>
+
+
+<p>Coinbase BTC prices in USD:</p>
+<p>-Buy: <span th:text="${Coinbase_BTC_USD.buyPrice}">This should be the buy price</span></p>
+<p>-Sell: <span th:text="${Coinbase_BTC_USD.sellPrice}">This should be the sell price</span></p>
+
+
+<p>Kraken ETH prices in USD:</p>
+<p>-Buy: <span th:text="${Kraken_ETH_USD.buyPrice}">This should be the buy price</span></p>
+<p>-Sell: <span th:text="${Kraken_ETH_USD.sellPrice}">This should be the sell price</span></p>
+
+
+<p>Coinbase ETH prices in USD:</p>
+<p>-Buy: <span th:text="${Coinbase_ETH_USD.buyPrice}">This should be the buy price</span></p>
+<p>-Sell: <span th:text="${Coinbase_ETH_USD.sellPrice}">This should be the sell price</span></p>
+
+<p style="white-space: pre;" th:text="${recommendation}">This should be the recommendation</p>
+
+<p><br /><br />Made By: Yi De Zhu<br />
+    Email: zhu.m.work@gmail.com<br />
+    LinkedIn : https://www.linkedin.com/in/yi-de-zhu-3121491b2/<br />
+    GitHub: https://github.com/ZHU-MONEY<br />
+</p>
+</body>
+</html>
