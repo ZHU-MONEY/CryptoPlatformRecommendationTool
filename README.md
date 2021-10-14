@@ -4,7 +4,7 @@ It makes recommendation on which platfrom to use for buying and selling dependin
 
 Tech used:
 
-- Backend: Java Spring, H2 Database
+- Backend: Java Spring
 - Fronend: Thymeleaf for HTML template
 - Built with Maven
 
